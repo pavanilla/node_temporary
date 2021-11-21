@@ -1,6 +1,6 @@
 const app=require("express")()
 const dummy=require('./routes/User')
-
+const bodyParser=require('body-parser')
 
 
 app.use("/",dummy)
